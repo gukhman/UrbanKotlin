@@ -78,19 +78,20 @@ private fun task1() {
 
 //2. Дана переменная с плавающей точкой. Написать программу, которая округляет эту переменную до целого числа.
 private fun task2() {
-    var res = "2. Результат округления числа "
-    var resNum = 0
+    val res = "2. Результат округления числа "
+    //var resNum = 0.0
     val maxIntLen = 2       //максимальная длина целой части числа
     val maxFractionLen = 5  //максимальная длина дробной части числа
     //генерируем число с учетом указанных выше параметров
     val number = (1..<(10.0).pow(maxIntLen).toInt()).random() +
             (1..<(10.0).pow(maxFractionLen).toInt()).random().toDouble() / (10.0).pow(maxFractionLen)
 
-    //напишем округление используя when. Если дробная часть < 0.5, то округляем в меньшую сторону и наоборот
-    when {
+    //Напишем округление используя when. Если дробная часть < 0.5, то округляем в меньшую сторону и наоборот
+    /*when {
         ((number - number.toInt()) * 2 < 1) -> resNum = number.toInt()
         else -> resNum = number.toInt() + 1
-    }
+    }*/
+    val resNum = round(number)     //округление используя round()
     println("$res $number равен $resNum")
 }
 
@@ -130,13 +131,12 @@ private fun task3() {
 private fun task4() {
     var a = 8
     var b = 5
-    when {
-        (a == 8 && b == 5) -> {
-            a = 5
-            b = 8
-        }
-    }
-    println("4. a = $a, b = $b")
+    println("4. До смены значений a = $a, b = $b")
+    //меняем значения переменных местами
+    val temp = a
+    a = b
+    b = temp
+    println("   После смены значений a = $a, b = $b")
 }
 
 

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="While1">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="While2">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/While/While.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/While/While.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
@@ -174,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718603055835</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="While2">
+      <option name="closed" value="true" />
+      <created>1718603103149</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718603103149</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +206,7 @@
     <MESSAGE value="When2" />
     <MESSAGE value="When3" />
     <MESSAGE value="While1" />
-    <option name="LAST_COMMIT_MESSAGE" value="While1" />
+    <MESSAGE value="While2" />
+    <option name="LAST_COMMIT_MESSAGE" value="While2" />
   </component>
 </project>

@@ -138,5 +138,3 @@ private fun task4() {
     b = temp
     println("\tПосле смены значений a = $a, b = $b")
 }
-
-

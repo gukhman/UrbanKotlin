@@ -55,9 +55,8 @@ private fun task3() {
     val B = 14
     var i = A
     if (A < B) {
-
         println("3.\tA = 5; B = 14")
-        while (i <= B){
+        while (i <= B) {
             println("\t$i")
             i++
         }

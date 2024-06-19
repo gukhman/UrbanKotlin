@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/When" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/While" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/For" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ComprehensiveTesting" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

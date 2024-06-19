@@ -4,7 +4,7 @@ fun main() {
     task1()
     task2()
     task3()
-//    task4()
+    task4()
 //    task5()
 }
 
@@ -44,24 +44,45 @@ private fun task3() {
             print("$i ")
         }
     }
+    println()
 }
 
 //Дано число n. Написать программу, которая проверяет, является ли оно простым.
 //Это ОЧЕНЬ сложная задача если число достаточно большое. Используем перебор делителей до кв. корня из n.
 // Добавим также проверку деления на 2,3,5
 private fun task4() {
+    print("4.\tВведите число для проверки простоты: ")
     val nStr = readLine()
     val n: Long? = try {
-        nStr!!.toLong()
+        nStr?.toLong()
     } catch (e: NumberFormatException) {
         null
     }
-    if ((n!! % 2).equals(0)) print("4.\tЧисло делится на 2")
-   /* while (N >= 1) {
-        res += N % 10
-        res += " "
-        N /= 10
-    }*/
+    println(n)
+    if (n != null) {
+        when {
+            n < 0 -> println("\tОтрицательные числа не могут быть проверены на простоту!")
+            n in 0..1 -> println("\t0 и 1 не являются ни простыми ни составными числами")
+            n == 2.toLong() -> println("\t2 - простое число")
+            n > 2 -> {
+                if (n % 2 == 0.toLong()) {
+                    println("\tЧисло $n не является простым, т.к. делится на 2")
+                    System.exit(-1)
+                }
+                var n3 = n;
+                var sumNum = 0
+                while (n3 >= 1) {
+                    sumNum += (n3 % 10).toInt()
+                    n3 /= 10
+                }
+                //println(sumNum)
+                if (sumNum % 3 == 0) {
+                    println("\tЧисло $n не является простым, т.к. делится на 3")
+                    System.exit(-1)
+                }
+            }
+        }
+    }
 }
 /*
 

@@ -57,20 +57,3 @@ private fun task4() {
     }
     println("\tМассив степеней 2: ${iArr.contentToString()}")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

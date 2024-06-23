@@ -1,10 +1,10 @@
 import kotlin.random.Random
 
 fun main() {
-    task1()
+//    task1()
     task2()
     task3()
-    task4()
+//    task4()
 }
 
 //1. Найти минимальный элемент в целочисленном массиве размера 3 х 3.
@@ -33,7 +33,7 @@ private fun task1() {
 }
 
 //2. Создать матрицу размером 3 х 5. Найти элемент в этом массиве, который является средним(медиана).
-//Преобразуем матрицу в одномерный массив, отсортируем его и возьмем средний элемент
+//Найдем медиану каждой из строк матрицы
 private fun task2() {
     val numOfStr = 3
     val numOfCol = 5
@@ -46,7 +46,8 @@ private fun task2() {
         }
         println()
     }
-    val matrix1D: Array<Int> = Array(numOfStr * numOfCol) { 0 }
+    //закомментирован кусок, решающий задачу через перевод матрицы в 1-мерный массив и только для нечетного кол-ва элементов
+    /*val matrix1D: Array<Int> = Array(numOfStr * numOfCol) { 0 }
     for (i in 0..numOfStr - 1) {
         for (j in 0..numOfCol - 1) {
             matrix1D[i * (numOfCol) + j] = matrix[i][j]
@@ -55,7 +56,31 @@ private fun task2() {
     matrix1D.sort()
     println("\tОдномерный сортированный массив:\n\t${matrix1D.contentToString()}")
     val medNum = (numOfStr * numOfCol - 1) / 2
-    println("\tМедиана исходной матрицы ${matrix1D[medNum]}")
+    println("\tМедиана исходной матрицы ${matrix1D[medNum]}")*/
+
+    //посчитаем медиану для каждой строки матрицы с учетом того что строк может быть четное количество
+    val medMatrix: Array<Double> = Array(numOfStr) { 0.0 }
+    val med: Double
+    println("\tМассив медиан строк матрицы:")
+    for (i in 0..numOfStr - 1) {
+        matrix[i].sort()
+        //println("\t${matrix[i].contentToString()}")
+        if (numOfCol % 2 == 0) {
+            medMatrix[i] = (matrix[i][numOfCol / 2 - 1] + matrix[i][numOfCol / 2]) / 2.0
+        } else {
+            medMatrix[i] = matrix[i][(numOfCol - 1) / 2].toDouble()
+        }
+        print("\t${medMatrix[i]}")
+    }
+    println()
+    //Найдем медиану медиан
+    medMatrix.sort()
+    if (medMatrix.size % 2 == 0) {
+        med = (medMatrix[medMatrix.size / 2 - 1] + medMatrix[medMatrix.size / 2]) / 2
+    } else {
+        med = medMatrix[(medMatrix.size - 1) / 2]
+    }
+    println("\tМедиана медиан исходной матрицы: $med")
 }
 
 //3. Дана матрица размером 5 х 5. Заполнить ее единицами в таком порядке:
@@ -80,9 +105,11 @@ private fun task3() {
                 2 -> {
                     if (i + j == 4) matrix[i][j] = 1
                 }
+
                 3 -> {
                     if (i + j in 4..6) matrix[i][j] = 1
                 }
+
                 4 -> matrix[i][j] = 1
             }
             print("\t${matrix[i][j]}")
@@ -102,5 +129,5 @@ private fun task4() {
         print("\t${arr[i]}")
     }
     arr.sortDescending()
-    println("\n\t$nMax-е максимальное число в массиве: ${arr[nMax-1]}")
+    println("\n\t$nMax-е максимальное число в массиве: ${arr[nMax - 1]}")
 }

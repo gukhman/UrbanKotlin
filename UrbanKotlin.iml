@@ -16,6 +16,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/ComprehensiveTesting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Arrays" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/mArrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Fun" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

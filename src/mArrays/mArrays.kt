@@ -1,10 +1,10 @@
 import kotlin.random.Random
 
 fun main() {
-//    task1()
+    task1()
     task2()
     task3()
-//    task4()
+    task4()
 }
 
 //1. Найти минимальный элемент в целочисленном массиве размера 3 х 3.
@@ -96,22 +96,19 @@ private fun task2() {
 */
 private fun task3() {
     val numOfStr = 5
-    val numOfCol = 5
-    val matrix: Array<Array<Int>> = Array(numOfStr) { Array(numOfCol) { 0 } }
+    val matrix: Array<Array<Int>> = Array(numOfStr) { Array(numOfStr) { 0 } }
+    var numOfOne = numOfStr     //количество "1" в строке матрицы (идут подряд посередине таблицы)
+    var startPosOfOne = 0       //стартовая позиция, с которой идут единицы
     println("3.\tМатрица:")
+    for (i in numOfStr - 1 downTo 0) {    //в последней строке матрицы все единицы
+        numOfOne = 2 * (i + 1) - numOfStr       //в каждой новой строке количество "1" уменьшается на 2
+        startPosOfOne = (numOfStr - numOfOne) / 2   //рассчитываем стартовую позицию, с которой в строке матрицы идут "1"
+        for (j in 0..numOfOne - 1) {
+            matrix[i][startPosOfOne + j] = 1
+        }
+    }
     for (i in 0..numOfStr - 1) {
-        for (j in 0..numOfCol - 1) {
-            when (i) {
-                2 -> {
-                    if (i + j == 4) matrix[i][j] = 1
-                }
-
-                3 -> {
-                    if (i + j in 4..6) matrix[i][j] = 1
-                }
-
-                4 -> matrix[i][j] = 1
-            }
+        for (j in 0..numOfStr - 1) {
             print("\t${matrix[i][j]}")
         }
         println()

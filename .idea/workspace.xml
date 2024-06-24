@@ -39,31 +39,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.ArrayKt.executor": "Run",
-    "Kotlin.CTKt.executor": "Run",
-    "Kotlin.ForKt.executor": "Run",
-    "Kotlin.FunKt.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.MArraysKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArrayKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CTKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />

@@ -77,19 +77,3 @@ private fun task4() {
     }
     println("\tПоложительные элементы массива: ${getPositive(arr)}")
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

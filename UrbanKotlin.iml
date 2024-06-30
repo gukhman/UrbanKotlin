@@ -22,6 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Modifiers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/ClassConstructors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Encapsulation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Inheritance" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

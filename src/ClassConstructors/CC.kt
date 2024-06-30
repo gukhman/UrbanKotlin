@@ -35,10 +35,9 @@ private fun task2() {
 //3. Дан массив целых чисел 3, 67, 1, 55, 65, 89, 23. Вывести на экран элементы массива.
 private fun task3() {
     val arr = arrayOf(3, 67, 1, 55, 65, 89, 23)
-    print("3.\t")
-//    for (elem in arr) print("$elem ")
-//    println()
-    println(arr.contentToString())
+    //print("3.\t"); for (elem in arr) print("$elem "); println()
+    println("3.\t${arr.joinToString(" ")}")
+    //print("3.\t"); arr.forEach { print("$it ") }; println()
 }
 
 /*4. Дано целое число. Вывести его строку-описание вида «отрицательное четное число»,

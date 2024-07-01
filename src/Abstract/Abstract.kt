@@ -62,26 +62,15 @@ private fun task2() {
 отрезка в метрах (дробное число). Найти длину отрезка в тех величинах, под номером которых они находятся.
 */
 private fun task3() {
-    val type = 1
+    val type = 5
     val len = 57.8  //метров
-    var res = 0.0
+    print("$len метров это ")
+    val res: Double
     when (type) {
-        1 -> {res = len * 10; println("Длина составляет $res дециметров")}
-        2 -> {res = len / 1000; println("Длина составляет $res километров")}
-        3 -> {res = len; println("Длина составляет $res метров")}
-        4 -> {res = len * 1000; println("Длина составляет $res миллиметров")}
-        5 -> {res = len * 100; println("Длина составляет $res сантиметров")}
+        1 -> {res = len * 10; println("$res дециметров")}
+        2 -> {res = len / 1000; println("$res километров")}
+        3 -> {println("и есть $len метров")}
+        4 -> {res = len * 1000; println("$res миллиметров")}
+        5 -> {res = len * 100; println("$res сантиметров")}
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

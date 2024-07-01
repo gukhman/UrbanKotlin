@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Inheritance/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin script (Beta).Main.kts.executor": "Run",
+    "Kotlin.AbstractKt.executor": "Run",
     "Kotlin.ArrayKt.executor": "Run",
     "Kotlin.CCKt.executor": "Run",
     "Kotlin.CTKt.executor": "Run",
@@ -86,7 +87,14 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.AbstractKt">
+    <configuration name="AbstractKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AbstractKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CCKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CCKt" />
       <module name="UrbanKotlin" />
@@ -115,20 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModifiersKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AbstractKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.GetSetKt" />
         <item itemvalue="Kotlin.EncapsulationKt" />
         <item itemvalue="Kotlin.CCKt" />
-        <item itemvalue="Kotlin.ModifiersKt" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719780354756</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Inheritance 30.06">
+      <option name="closed" value="true" />
+      <created>1719780412259</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719780412259</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

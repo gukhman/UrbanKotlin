@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Override/Override.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Override/Override.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -368,7 +368,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719904328222</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Override 03.07">
+      <option name="closed" value="true" />
+      <created>1719987493190</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719987493190</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Override 03.07">
+      <option name="closed" value="true" />
+      <created>1719987510292</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719987510292</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -407,6 +423,14 @@
     <MESSAGE value="Inheritance 30.06" />
     <MESSAGE value="Abstract 01.07 (1,2)" />
     <MESSAGE value="Interfaces 02.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interfaces 02.07" />
+    <MESSAGE value="Override 03.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Override 03.07" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="temp[i]" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -21,9 +21,10 @@ private class NestedTask1 {
 private class NestedTask2 {
     fun task() {
         val list = arrayListOf("Иванов", "Петров", "Сидоров", "Процветов", "Протасов")
+        println("Исходный массив: $list")
         var strToSearch: String
         while (true) {
-            print("Для выхода из программы введите exit. Введите строку для поиска: ")
+            print("Введите строку для поиска (exit для выхода): ")
             strToSearch = readlnOrNull().toString()
             if (strToSearch == "exit" || strToSearch == "учше") break   //чтобы не путать раскладки=)
             if (strToSearch != "") {
@@ -39,14 +40,28 @@ private class NestedTask2 {
 
 /*3.    Создать массив целых чисел, в котором есть два нулевых элемента, не идущих подряд.
 Посчитать количество элементов, которые находятся между нолями.*/
-
 private class NestedTask3 {
     fun task() {
-        val intArray = IntArray(8) { i -> i + 1 }
-        intArray[2] = 0
-        intArray[5] = 0
-        println("Исходный массив: ${intArray.contentToString()}")
-        val res = intArray.filterIndexed { index, item -> item == 0 }
-        println("Исходный массив: $res")
+        val intArray = IntArray(9) { i -> i + 1 }
+        var firstZeroIndex = 0
+        var secondZeroIndex = 0
+        var firstZero = true
+        intArray[1] = 0
+        intArray[4] = 0
+        intArray[6] = 0
+//        val res = intArray.filterIndexed { index, item -> if (item > 0) index else null }
+        for (i in intArray.indices) {
+            if (intArray[i] == 0) {
+                if (firstZero) {
+                    firstZeroIndex = i  //индекс первого нулевого элемента
+                    firstZero = false   //флаг первого нулевого элемента
+                } else {
+                    secondZeroIndex = i //после нахождения второго нулевого элемента выходим из цикла
+                    break
+                }
+            }
+        }
+        println("Исходный массив: ${intArray.contentToString()}\n" +
+                "Количество элементов между нулевыми: ${secondZeroIndex-firstZeroIndex-1}")
     }
 }

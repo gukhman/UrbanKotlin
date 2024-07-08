@@ -4,7 +4,6 @@ fun main() {
 
 /*1.     Написать программу по продаже билетов в кино. Пользователь покупает билет, в который заносятся данные названия фильма,
 места и времени начала сеанса. Проданные билеты заносятся в массив архива. По желанию можно вывести все проданные билеты на фильм.*/
-
 private class DataClassTask1 {
     val soldTickets = ArrayList<CinemaTickets>()
 
@@ -30,11 +29,17 @@ private class DataClassTask1 {
                             if (soldTickets.size > 0) {
                                 title = soldTickets.last().title
                                 dateTime = soldTickets.last().dateTime
-                            } else println("Еще не продано ни одного билета\n")     //если это первая продажа то опции 2 и 3 не должны работать
+                            } else {
+                                println("Еще не продано ни одного билета\n")
+                                continue
+                            }     //если это первая продажа то опции 2 и 3 не должны работать
                         } else if (whatToDo == "3") {
                             if (soldTickets.size > 0) {
                                 title = soldTickets.last().title
-                            } else println("Еще не продано ни одного билета\n")
+                            } else {
+                                println("Еще не продано ни одного билета\n")
+                                continue
+                            }
                         }
                         val ticket = CinemaTickets(title, "", dateTime).ticketFill()    //заполняем билет
                         if (wannaExit(ticket)) break else {    //проверяем, нехочет ли пользователь выйти из ПО, если нет - добавляем заполненный билет в проданные

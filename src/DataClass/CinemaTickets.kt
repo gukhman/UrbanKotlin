@@ -43,10 +43,10 @@ data class CinemaTickets(val title: String, val seatNum: String, val dateTime: S
         return CinemaTickets(cinema, seat, date)
     }
 
-    private fun inputChecks(data: String): String {
+    private fun inputChecks(data: Any): String {
         val res: String = when (data) {
             "exit", "учше" -> "q"
-            else -> data
+            else -> data.toString()
         }
         return res
     }

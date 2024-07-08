@@ -26,6 +26,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Abstract" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Interfaces" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Override" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/NestedClasses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/DataClass" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

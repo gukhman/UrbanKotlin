@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Return">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataClass/CinemaTickets.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataClass/CinemaTickets.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DataClass/DataClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataClass/DataClass.kt" afterDir="false" />
@@ -21,7 +21,6 @@
         <option value="Kotlin Script" />
         <option value="Kotlin File" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Interface" />
       </list>
     </option>
   </component>
@@ -36,8 +35,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/gukhman/UrbanKotlin&quot;,
-    &quot;accountId&quot;: &quot;8bb91d59-3d66-469b-871f-5e4673f9e1d4&quot;
+    &quot;url&quot;: &quot;git@github.com:/gukhman/UrbanKotlin.git&quot;,
+    &quot;accountId&quot;: &quot;2bfd2d9b-db59-4fcd-a318-f63e523c8cd7&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -48,56 +47,54 @@
 }</component>
   <component name="ProjectId" id="2hrCJV7BOCRbLHdaQAaZJWg0a7q" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.AbstractKt.executor": "Run",
-    "Kotlin.ArrayKt.executor": "Run",
-    "Kotlin.CTKt.executor": "Run",
-    "Kotlin.DataClassKt.executor": "Run",
-    "Kotlin.ForKt.executor": "Run",
-    "Kotlin.FunKt.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.MArraysKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.ModifiersKt.executor": "Run",
-    "Kotlin.NestedClassesKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.OverrideKt.executor": "Run",
-    "Kotlin.ReturnKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AbstractKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArrayKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CCKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CTKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataClassKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncapsulationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GetSetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ModifiersKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.NestedClassesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OverrideKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ReturnKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.DataClassKt">
-    <configuration name="AbstractKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AbstractKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DataClassKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DataClassKt" />
       <module name="UrbanKotlin" />
@@ -105,8 +102,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModifiersKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ModifiersKt" />
+    <configuration name="GetSetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GetSetKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfacesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,10 +133,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.DataClassKt" />
+        <item itemvalue="Kotlin.GetSetKt" />
         <item itemvalue="Kotlin.NestedClassesKt" />
         <item itemvalue="Kotlin.OverrideKt" />
-        <item itemvalue="Kotlin.AbstractKt" />
-        <item itemvalue="Kotlin.ModifiersKt" />
+        <item itemvalue="Kotlin.InterfacesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +277,119 @@
       <option name="project" value="LOCAL" />
       <updated>1719292531249</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Modifiers1">
+      <option name="closed" value="true" />
+      <created>1719381244334</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1719381244334</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Modifiers2">
+      <option name="closed" value="true" />
+      <created>1719465355247</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1719465355247</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Modifiers2">
+      <option name="closed" value="true" />
+      <created>1719465378682</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1719465378682</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Constructor29.06">
+      <option name="closed" value="true" />
+      <created>1719646646365</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1719646646365</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Constructors 30.06">
+      <option name="closed" value="true" />
+      <created>1719723612609</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1719723612609</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Encapsulation 30.06">
+      <option name="closed" value="true" />
+      <created>1719745932430</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1719745932430</updated>
+    </task>
+    <task id="LOCAL-00023" summary="getSet 30.06">
+      <option name="closed" value="true" />
+      <created>1719764369366</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1719764369366</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Inheritance 30.06">
+      <option name="closed" value="true" />
+      <created>1719780337800</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1719780337800</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Inheritance 30.06">
+      <option name="closed" value="true" />
+      <created>1719780354756</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1719780354756</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Inheritance 30.06">
+      <option name="closed" value="true" />
+      <created>1719780412259</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1719780412259</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Abstract 01.07 (1,2)">
+      <option name="closed" value="true" />
+      <created>1719813038668</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1719813038668</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Interfaces 02.07">
+      <option name="closed" value="true" />
+      <created>1719904328222</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1719904328222</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Override 03.07">
+      <option name="closed" value="true" />
+      <created>1719987493190</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719987493190</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Override 03.07">
+      <option name="closed" value="true" />
+      <created>1719987510292</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719987510292</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +419,16 @@
     <MESSAGE value="mArrays" />
     <MESSAGE value="Fun" />
     <MESSAGE value="Return" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return" />
+    <MESSAGE value="Modifiers1" />
+    <MESSAGE value="Modifiers2" />
+    <MESSAGE value="Constructor29.06" />
+    <MESSAGE value="Constructors 30.06" />
+    <MESSAGE value="Encapsulation 30.06" />
+    <MESSAGE value="getSet 30.06" />
+    <MESSAGE value="Inheritance 30.06" />
+    <MESSAGE value="Abstract 01.07 (1,2)" />
+    <MESSAGE value="Interfaces 02.07" />
+    <MESSAGE value="Override 03.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Override 03.07" />
   </component>
 </project>

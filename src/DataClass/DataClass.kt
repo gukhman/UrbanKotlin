@@ -25,7 +25,7 @@ private class DataClassTask1 {
                     "1", "2", "3" -> {
                         var title = ""
                         var dateTime = ""
-                        if (whatToDo == "2") {      //1 -заполняем все, 2 заполняем только место, 3 - заполняем место и время
+                        if (whatToDo == "2") {      //1 -заполняем все, 2 заполняем только место, 3 - заполняем место и сеанс
                             if (soldTickets.size > 0) {
                                 title = soldTickets.last().title
                                 dateTime = soldTickets.last().dateTime
@@ -41,15 +41,15 @@ private class DataClassTask1 {
                                 continue
                             }
                         }
-                        val ticket = CinemaTickets(title, "", dateTime).ticketFill()    //заполняем билет
+                        val ticket = CinemaTickets(title, 0, dateTime).ticketFill()    //заполняем билет
                         if (wannaExit(ticket)) break else {    //проверяем, нехочет ли пользователь выйти из ПО, если нет - добавляем заполненный билет в проданные
                             soldTickets.add(ticket)
                             println("Билет продан.\n")
                         }
                     }
 
-                    "all", "фдд" -> {
-                        CinemaTickets("", "", "").showSoldTickets(soldTickets)
+                    "all", "фдд" -> {           //показать все проданные билеты
+                        CinemaTickets("", 0, "").showSoldTickets(soldTickets)
                     }
 
                     "exit", "учше" -> break
@@ -64,8 +64,8 @@ private class DataClassTask1 {
 
     fun wannaExit(ticket: CinemaTickets): Boolean {
         //проверяем, не была ли введена команда выхода из программы
-        val ticketStr = "${ticket.title}~${ticket.seatNum}~${ticket.dateTime}~"
-        return when (ticketStr.contains("q~")) {
+        val ticketStr = "${ticket.title}~${ticket.seatNum}~${ticket.dateTime}"
+        return when (ticketStr == "~0~") {
             true -> true
             else -> false
         }

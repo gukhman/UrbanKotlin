@@ -37,7 +37,7 @@ private fun task2(arr: Array<Int>): Array<Int> {
 //3. Дана матрица размера M×N и целое число K (1≤K≤M). Вывести элементы K-й строки данной матрицы.
 private fun task3(kStr: Int, matrix: Array<Array<Int>>): String = matrix[kStr].contentToString() //однострочная функция
 
-fun getMatrix(m: Int, n: Int): Array<Array<Int>> {
+private fun getMatrix(m: Int, n: Int): Array<Array<Int>> {
     val matrix: Array<Array<Int>> = Array(m) { Array(n) { 0 } }
     println("\tИсходная матрица:")
     for (i in 0..<m) {

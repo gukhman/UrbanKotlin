@@ -34,7 +34,7 @@ private fun task2() {
     println("\n")
 }
 
-fun getMatrix(n: Int): Array<Array<Int>> {
+private fun getMatrix(n: Int): Array<Array<Int>> {
     val matrix: Array<Array<Int>> = Array(n) { Array(n) { 0 } }
     println("\tИсходная матрица:")
     for (i in 0..<n) {

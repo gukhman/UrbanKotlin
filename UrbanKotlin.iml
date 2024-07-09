@@ -28,6 +28,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Override" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/NestedClasses" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/DataClass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Enum" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

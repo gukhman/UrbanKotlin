@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Enum 09.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Anon 09.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modifiers/Modifiers.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modifiers/Modifiers.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Return/Return.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Return/Return.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +17,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -64,6 +62,7 @@
     "Kotlin.CCKt.executor": "Run",
     "Kotlin.CTKt.executor": "Run",
     "Kotlin.DataClassKt.executor": "Run",
+    "Kotlin.DelegationKt.executor": "Debug",
     "Kotlin.EncapsulationKt.executor": "Run",
     "Kotlin.EnumKt.executor": "Run",
     "Kotlin.ForKt.executor": "Run",
@@ -96,7 +95,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AnonimObjectKt">
+  <component name="RunManager" selected="Kotlin.DelegationKt">
     <configuration name="AnonimObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonimObjectKt" />
       <module name="UrbanKotlin" />
@@ -104,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EnumKt" />
+    <configuration name="DelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DelegationKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.DelegationKt" />
         <item itemvalue="Kotlin.AnonimObjectKt" />
         <item itemvalue="Kotlin.ReturnKt" />
         <item itemvalue="Kotlin.ModifiersKt" />
         <item itemvalue="Kotlin.OverrideKt" />
-        <item itemvalue="Kotlin.EnumKt" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720523141508</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Anon 09.07">
+      <option name="closed" value="true" />
+      <created>1720533941817</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1720533941817</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -398,7 +405,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Kotlin" />
     <MESSAGE value="val/oper" />
     <MESSAGE value="if" />
     <MESSAGE value="When" />
@@ -423,6 +429,18 @@
     <MESSAGE value="Abstract 01.07 (1,2)" />
     <MESSAGE value="Interfaces 02.07" />
     <MESSAGE value="Enum 09.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enum 09.07" />
+    <MESSAGE value="Anon 09.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anon 09.07" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/Delegation/Delegation.kt</url>
+          <line>88</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -31,6 +31,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/AnonimObject" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Delegation" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Enum" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/TypeFunction" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

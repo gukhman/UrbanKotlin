@@ -61,14 +61,16 @@ private class HighFun1 {
 будет вызываться функция изменения числа.*/
 private class HighFun2 {
     fun task() {
-        val arr = intArrayOf(1,2,3,4,5)
-        println("Массив, элементы которого увеличены на 1: " + arrChange(arr,::addOne))
-        println("Массив, элементы которого умножены на 2: " + arrChange(arr,::multTwo))
+        val arr = intArrayOf(1, 2, 3, 4, 5)
+        println("Массив, элементы которого увеличены на 1: " + arrChange(arr, ::addOne))
+        println("Массив, элементы которого умножены на 2: " + arrChange(arr, ::multTwo))
     }
+
     fun arrChange(arr: IntArray, change: (Int) -> Int): List<Int> {
         val arr2 = arr.map { change(it) }
         return arr2
     }
+
     fun addOne(num: Int): Int = num + 1
     fun multTwo(num: Int): Int = num * 2
 }

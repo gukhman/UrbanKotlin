@@ -5,11 +5,6 @@ enum class Colors {
     YELLOW,
     ORANGE,
     PURPLE,
-    WHITE,
-    BLACK,
-    PINK,
-    BROWN,
-    GREY,
     MAGENTA,
     AQUAMARINE
 }

@@ -1,5 +1,5 @@
 fun main() {
-//    println("1."); HighFun1().task(); println("----------------------------------")
+    println("1."); HighFun1().task(); println("----------------------------------")
     println("2."); HighFun2().task(); println("----------------------------------")
 }
 
@@ -12,7 +12,7 @@ private class HighFun1 {
         val color1 = Colors.YELLOW.toString()
         val color2 = Colors.RED.toString()
 
-        println(action(color1, color2, ::mix))
+        println("При смешивании $color1 и $color2 получаем ${action(color1, color2, ::mix)}")
     }
 
     fun action(col1: String, col2: String, mix: (String, String) -> String): String {

@@ -1,5 +1,3 @@
-import kotlin.math.round
-
 fun main() {
     println("1."); Lambda1().task(); println("----------------------------------")
     println("2."); Lambda2().task(); println("----------------------------------")
@@ -29,12 +27,12 @@ private class Lambda3 {
 
 /*4. 4. Напишите программу, которая реализует лямбда-выражение для работы с массивом целых чисел таким образом,
 что его четные элементы делятся на 2, нечетные – умножаются на 3.*/
+//1-й элемент массива - это элемент с нулевым индексом
+//Т.к. массив целых чисел, то при делении на 2 его элементы будут терять дробную часть
 private class Lambda4 {
-    fun task() = println("Измененный массив: " + arrChange(doubleArrayOf(1.4, 2.0, 3.7, 4.7, 5.0)))
-    val arrChange = { arr: DoubleArray ->
-        for (i in arr.indices) if (i % 2 == 0) arr[i] =
-            round(arr[i] * 100 / 2.0) / 100.0 //умножаем на 100 и делим для округления
-        else arr[i] = round(arr[i] * 100 * 3.0) / 100.0
+    fun task() = println("Измененный массив: " + arrChange(intArrayOf(2, 3, 4, 5, 6)))
+    val arrChange = { arr: IntArray ->
+        for (i in arr.indices) if (i % 2 == 1) arr[i] *= 3 else arr[i] /= 2
         arr.contentToString()
     }
 }

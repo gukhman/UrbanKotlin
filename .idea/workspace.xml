@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="AnonFun 14.07 1">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Lambda 15.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -79,6 +79,7 @@
     "Kotlin.OperKt.executor": "Run",
     "Kotlin.OverrideKt.executor": "Run",
     "Kotlin.ReturnKt.executor": "Run",
+    "Kotlin.StringKt.executor": "Run",
     "Kotlin.TypeFunctionKt.executor": "Run",
     "Kotlin.ValKt.executor": "Run",
     "Kotlin.WhenKt.executor": "Run",
@@ -99,16 +100,9 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.LambdaKt">
+  <component name="RunManager" selected="Kotlin.StringKt">
     <configuration name="AnonymousFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousFunKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DelegationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DelegationKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,6 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TypeFunctionKt" />
       <module name="UrbanKotlin" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.StringKt" />
         <item itemvalue="Kotlin.LambdaKt" />
         <item itemvalue="Kotlin.AnonymousFunKt" />
         <item itemvalue="Kotlin.HighFunKt" />
         <item itemvalue="Kotlin.TypeFunctionKt" />
-        <item itemvalue="Kotlin.DelegationKt" />
       </list>
     </recent_temporary>
   </component>
@@ -450,7 +451,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720977203816</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Lambda 15.07">
+      <option name="closed" value="true" />
+      <created>1721012826239</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1721012826239</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -465,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="While2" />
     <MESSAGE value="While3" />
     <MESSAGE value="CT2" />
     <MESSAGE value="Arrays" />
@@ -490,6 +498,17 @@
     <MESSAGE value="HighFun 14.07 (format)" />
     <MESSAGE value="AnonFun 14.07" />
     <MESSAGE value="AnonFun 14.07 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="AnonFun 14.07 1" />
+    <MESSAGE value="Lambda 15.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lambda 15.07" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JetRunConfigurationType">
+        <watch expression="phone.substring(0, 2)" language="kotlin" />
+        <watch expression="phone.length" language="kotlin" />
+        <watch expression="phone.replace(&quot;+7&quot;, &quot;&quot;).toBigIntegerOrNull()" language="kotlin" />
+        <watch expression="phone.replace(&quot;+7&quot;, &quot;&quot;)" language="kotlin" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

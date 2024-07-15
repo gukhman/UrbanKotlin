@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="HighFun 14.07 (format)">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="AnonFun 14.07 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HighFun/Colors.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HighFun/Colors.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HighFun/HighFun.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HighFun/HighFun.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +72,7 @@
     "Kotlin.HighFunKt.executor": "Run",
     "Kotlin.IfKt.executor": "Run",
     "Kotlin.InterfacesKt.executor": "Run",
+    "Kotlin.LambdaKt.executor": "Run",
     "Kotlin.MArraysKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.ModifiersKt.executor": "Run",
@@ -100,14 +99,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.AnonymousFunKt">
-    <configuration name="AnonimObjectKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonimObjectKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.LambdaKt">
     <configuration name="AnonymousFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnonymousFunKt" />
       <module name="UrbanKotlin" />
@@ -129,6 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LambdaKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LambdaKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TypeFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TypeFunctionKt" />
       <module name="UrbanKotlin" />
@@ -138,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.LambdaKt" />
         <item itemvalue="Kotlin.AnonymousFunKt" />
         <item itemvalue="Kotlin.HighFunKt" />
         <item itemvalue="Kotlin.TypeFunctionKt" />
         <item itemvalue="Kotlin.DelegationKt" />
-        <item itemvalue="Kotlin.AnonimObjectKt" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +434,23 @@
       <option name="project" value="LOCAL" />
       <updated>1720949936321</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="AnonFun 14.07">
+      <option name="closed" value="true" />
+      <created>1720977185818</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1720977185818</updated>
+    </task>
+    <task id="LOCAL-00037" summary="AnonFun 14.07 1">
+      <option name="closed" value="true" />
+      <created>1720977203816</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1720977203816</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -450,8 +465,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="When3" />
-    <MESSAGE value="While1" />
     <MESSAGE value="While2" />
     <MESSAGE value="While3" />
     <MESSAGE value="CT2" />
@@ -475,6 +488,8 @@
     <MESSAGE value="TypeFun 11.07" />
     <MESSAGE value="HighFun 14.07" />
     <MESSAGE value="HighFun 14.07 (format)" />
-    <option name="LAST_COMMIT_MESSAGE" value="HighFun 14.07 (format)" />
+    <MESSAGE value="AnonFun 14.07" />
+    <MESSAGE value="AnonFun 14.07 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="AnonFun 14.07 1" />
   </component>
 </project>

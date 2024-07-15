@@ -34,6 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/TypeFunction" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/AnonymousFun" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/HighFun" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Lambda" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

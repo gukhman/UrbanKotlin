@@ -30,9 +30,9 @@ private class Lambda3 {
 //1-й элемент массива - это элемент с нулевым индексом
 //Т.к. массив целых чисел, то при делении на 2 его элементы будут терять дробную часть
 private class Lambda4 {
-    fun task() = println("Измененный массив: " + arrChange(intArrayOf(2, 3, 4, 5, 6)))
+    fun task() = println("Измененный массив: " + arrChange(intArrayOf(3, 2, 4, 5, 3)))
     val arrChange = { arr: IntArray ->
-        for (i in arr.indices) if (i % 2 == 1) arr[i] *= 3 else arr[i] /= 2
+        for (i in arr.indices) if (arr[i] % 2 == 0) arr[i] /= 2 else arr[i] *= 3
         arr.contentToString()
     }
 }

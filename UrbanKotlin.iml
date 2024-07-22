@@ -38,6 +38,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/String" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Generics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/GenericsLimits" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Exceptions" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

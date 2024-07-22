@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Generics 16.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="GenericsLimits 17.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -53,58 +53,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.AbstractKt.executor": "Run",
-    "Kotlin.AnonimObjectKt.executor": "Run",
-    "Kotlin.AnonymousFunKt.executor": "Run",
-    "Kotlin.ArrayKt.executor": "Run",
-    "Kotlin.CCKt.executor": "Run",
-    "Kotlin.CTKt.executor": "Run",
-    "Kotlin.DataClassKt.executor": "Run",
-    "Kotlin.DelegationKt.executor": "Run",
-    "Kotlin.EncapsulationKt.executor": "Run",
-    "Kotlin.EnumKt.executor": "Run",
-    "Kotlin.ForKt.executor": "Run",
-    "Kotlin.FunKt.executor": "Run",
-    "Kotlin.GenericsKt.executor": "Run",
-    "Kotlin.GenericsLimitsKt.executor": "Run",
-    "Kotlin.GetSetKt.executor": "Run",
-    "Kotlin.HighFunKt.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.InterfacesKt.executor": "Run",
-    "Kotlin.LambdaKt.executor": "Run",
-    "Kotlin.MArraysKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.ModifiersKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.OverrideKt.executor": "Run",
-    "Kotlin.ReturnKt.executor": "Run",
-    "Kotlin.StringKt.executor": "Run",
-    "Kotlin.TypeFunctionKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AbstractKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonimObjectKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonymousFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArrayKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CCKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CTKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataClassKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncapsulationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EnumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExceptionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsLimitsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GetSetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HighFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ModifiersKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OverrideKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ReturnKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StringKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TypeFunctionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GenericsLimitsKt">
-    <configuration name="AnonymousFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnonymousFunKt" />
+  <component name="RunManager" selected="Kotlin.ExceptionsKt">
+    <configuration name="ExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionsKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExceptionsKt" />
         <item itemvalue="Kotlin.GenericsLimitsKt" />
         <item itemvalue="Kotlin.GenericsKt" />
         <item itemvalue="Kotlin.LambdaKt" />
         <item itemvalue="Kotlin.StringKt" />
-        <item itemvalue="Kotlin.AnonymousFunKt" />
       </list>
     </recent_temporary>
   </component>
@@ -485,7 +486,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721150549913</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="GenericsLimits 17.07">
+      <option name="closed" value="true" />
+      <created>1721229470388</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1721229470388</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -500,7 +509,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Arrays2" />
     <MESSAGE value="mArrays" />
     <MESSAGE value="Fun" />
     <MESSAGE value="Return" />
@@ -525,7 +533,8 @@
     <MESSAGE value="String 15.07" />
     <MESSAGE value="Lambda 15.07 2" />
     <MESSAGE value="Generics 16.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generics 16.07" />
+    <MESSAGE value="GenericsLimits 17.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="GenericsLimits 17.07" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

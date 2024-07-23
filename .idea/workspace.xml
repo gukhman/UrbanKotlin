@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="GenericsLimits 17.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Exceptions 22.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Exceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Exceptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/Users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/Users.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -494,7 +495,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721229470388</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Exceptions 22.07">
+      <option name="closed" value="true" />
+      <created>1721628331921</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1721628331921</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -509,7 +518,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="mArrays" />
     <MESSAGE value="Fun" />
     <MESSAGE value="Return" />
     <MESSAGE value="Modifiers1" />
@@ -534,7 +542,8 @@
     <MESSAGE value="Lambda 15.07 2" />
     <MESSAGE value="Generics 16.07" />
     <MESSAGE value="GenericsLimits 17.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenericsLimits 17.07" />
+    <MESSAGE value="Exceptions 22.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exceptions 22.07" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

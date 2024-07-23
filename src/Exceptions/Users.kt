@@ -1,5 +1,5 @@
-data class Users(val name: String){
+data class Users(val name: String, val seat: Int){
     override fun toString(): String {
-        return "$name - постоянный член клуба\n"
+        return "$seat: $name"
     }
 }

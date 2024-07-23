@@ -1,3 +1,5 @@
+import kotlin.system.exitProcess
+
 /*Создать каталог пользователей вместимостью не более 10 персон.
 Она будет содержать функцию приветствия greeting().
 Необходимо написать функцию createList(list: Array<String>), в которой нужно
@@ -6,33 +8,46 @@
 Программа должна перехватывать исключения на ввод пустого имени и определения места в каталоге,
 которого не существует. Как пожелание, предлагаю написать свой класс исключений, например, с названием MyException.*/
 fun main() {
-    val users = ArrayList<Users>()
-    print("Введите имена будущих членов клуба через запятую\n:")
-    val names = readln()
-    try {
-        val usersToAdd = checkNames(names)
-        usersToAdd.forEach { name ->
-            val newUser = Users(name)
-            users.add(newUser)
+    val users = arrayOfNulls<Users>(10)
+    while (listOfNotNull(users).isNotEmpty()) {
+        print("Введите имя нового члена клуба(0 - для выхода): ")
+        val name = readln()
+        if (name == "0") {
+            greeting(users)
+            exitProcess(0)
         }
-    } catch (e: Exception) {
-        println(e.message)
-    }
-    when (users.size) {
-        in 1..10 -> greeting(users)
-        0 -> println("Клуб не существует без членов клуба")
-        else -> println("Членство в клубе могут получить только 10 гостей")
+        print("Введите место нового члена клуба: ")
+        val seat = readln()
+        try {
+            val intSeat = checkNameSeat(name, seat, users)
+            val newUser = Users(name, intSeat)
+            users[intSeat - 1] = newUser
+        } catch (e: Exception) {
+            println(e.message)
+        }
+        greeting(users)
     }
 }
 
-fun checkNames(input: String): List<String> {
-    val names = input.split(",")
-    names.forEach { name ->
-        if (name.isBlank()) throw Exception("Ни одно из введенных имён не должно быть пустым")
+fun checkNameSeat(name: String, seat: String, users: Array<Users?>): Int {
+    if (name.isBlank()) throw Exception("Имя не должно быть пустым")
+    var emptySeat = ""
+    for (i in users.indices) if (users[i] == null) emptySeat += "${i + 1}, "
+    val intSeat = seat.toIntOrNull()
+    when (intSeat) {
+        null -> throw Exception("В клубе 10 мест. Нужно ввести число от 1 до 10")
+        !in 1..10 -> throw Exception("Количество мест ограничено 10 членами клуба. Нужно ввести число от 1 до 10")
+        else -> if (users[intSeat - 1] != null) throw Exception("Место $intSeat уже занято, свободные места: $emptySeat")
     }
-    return names
+    return intSeat
 }
 
-fun greeting(users: ArrayList<Users>) {
-    println("$users\nПриветствуем Вас в нашем клубе")
+fun greeting(users: Array<Users?>) {
+    var nulls = 0
+    for (i in users.indices) if (users[i] == null) nulls++
+    if (nulls < users.size) {
+        users.forEach { user ->
+            if (user != null) println("$user, приветствуем Вас в нашем клубе")
+        }
+    } else println("Клуб не существует без членов клуба")
 }

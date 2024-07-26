@@ -1,5 +1,3 @@
-import kotlin.reflect.typeOf
-
 fun main() {
     println("1."); Types1().task(); println("----------------------------------")
     println("2."); Types2().task(); println("----------------------------------")

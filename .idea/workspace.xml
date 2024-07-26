@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Nullable 23.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Types 25.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Types/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/Types.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
       <list>
         <option value="Kotlin Script" />
         <option value="Kotlin Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -67,6 +68,7 @@
     "Kotlin.EncapsulationKt.executor": "Run",
     "Kotlin.EnumKt.executor": "Run",
     "Kotlin.ExceptionsKt.executor": "Run",
+    "Kotlin.ExtensionsKt.executor": "Run",
     "Kotlin.ForKt.executor": "Run",
     "Kotlin.FunKt.executor": "Run",
     "Kotlin.GenericsKt.executor": "Run",
@@ -105,7 +107,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TypesKt">
+  <component name="RunManager" selected="Kotlin.ExtensionsKt">
     <configuration name="ExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionsKt" />
       <module name="UrbanKotlin" />
@@ -113,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsKt" />
+    <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.TypesKt" />
         <item itemvalue="Kotlin.NullableKt" />
         <item itemvalue="Kotlin.ExceptionsKt" />
         <item itemvalue="Kotlin.GenericsLimitsKt" />
-        <item itemvalue="Kotlin.GenericsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721732330539</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Types 25.07">
+      <option name="closed" value="true" />
+      <created>1721887835477</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1721887835477</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -535,7 +545,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modifiers1" />
     <MESSAGE value="Modifiers2" />
     <MESSAGE value="Constructor29.06" />
     <MESSAGE value="Constructors 30.06" />
@@ -560,6 +569,7 @@
     <MESSAGE value="Exceptions 22.07" />
     <MESSAGE value="Exceptions 23.07" />
     <MESSAGE value="Nullable 23.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Nullable 23.07" />
+    <MESSAGE value="Types 25.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Types 25.07" />
   </component>
 </project>

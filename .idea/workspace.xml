@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Types 25.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Extensions 26.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Types/Types.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Types/Types.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,7 @@
     "Kotlin.OperKt.executor": "Run",
     "Kotlin.OverrideKt.executor": "Run",
     "Kotlin.ReturnKt.executor": "Run",
+    "Kotlin.ScopeFunKt.executor": "Run",
     "Kotlin.StringKt.executor": "Run",
     "Kotlin.TypeFunctionKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
@@ -107,7 +107,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ExtensionsKt">
+  <component name="RunManager" selected="Kotlin.ScopeFunKt">
     <configuration name="ExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExceptionsKt" />
       <module name="UrbanKotlin" />
@@ -122,15 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericsLimitsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GenericsLimitsKt" />
+    <configuration name="NullableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NullableKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NullableKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NullableKt" />
+    <configuration name="ScopeFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScopeFunKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ScopeFunKt" />
         <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.TypesKt" />
         <item itemvalue="Kotlin.NullableKt" />
         <item itemvalue="Kotlin.ExceptionsKt" />
-        <item itemvalue="Kotlin.GenericsLimitsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -530,7 +530,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721887835477</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Extensions 26.07">
+      <option name="closed" value="true" />
+      <created>1721972901311</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1721972901311</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -545,7 +553,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Modifiers2" />
     <MESSAGE value="Constructor29.06" />
     <MESSAGE value="Constructors 30.06" />
     <MESSAGE value="Encapsulation 30.06" />
@@ -570,6 +577,7 @@
     <MESSAGE value="Exceptions 23.07" />
     <MESSAGE value="Nullable 23.07" />
     <MESSAGE value="Types 25.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Types 25.07" />
+    <MESSAGE value="Extensions 26.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extensions 26.07" />
   </component>
 </project>

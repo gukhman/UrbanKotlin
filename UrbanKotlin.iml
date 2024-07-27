@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Nullable" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Types" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Extensions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/ScopeFun" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

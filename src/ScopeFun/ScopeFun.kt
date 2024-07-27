@@ -33,7 +33,7 @@ private class ScopeFun2 {
 данный массив, количество элементов массива, сумму элементов массива.*/
 private class ScopeFun3 {
     fun task() {
-        val intList = listOf<Int>(42, 17, 38, 56, -7, 789)
+        val intList = listOf(42, 17, 38, 56, -7, 789)
         with(intList) {
             println("Массив: $this\n" +
                     "Количество элементов: ${this.size}\n" +

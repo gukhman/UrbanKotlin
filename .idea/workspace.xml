@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Extensions 26.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="ScopeFun 27.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -75,6 +75,7 @@
     "Kotlin.GetSetKt.executor": "Run",
     "Kotlin.HighFunKt.executor": "Run",
     "Kotlin.IfKt.executor": "Run",
+    "Kotlin.InfixKt.executor": "Run",
     "Kotlin.InterfacesKt.executor": "Run",
     "Kotlin.LambdaKt.executor": "Run",
     "Kotlin.MArraysKt.executor": "Run",
@@ -107,16 +108,16 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ScopeFunKt">
-    <configuration name="ExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExceptionsKt" />
+  <component name="RunManager" selected="Kotlin.InfixKt">
+    <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
+    <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InfixKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.InfixKt" />
         <item itemvalue="Kotlin.ScopeFunKt" />
         <item itemvalue="Kotlin.ExtensionsKt" />
         <item itemvalue="Kotlin.TypesKt" />
         <item itemvalue="Kotlin.NullableKt" />
-        <item itemvalue="Kotlin.ExceptionsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -538,7 +539,23 @@
       <option name="project" value="LOCAL" />
       <updated>1721972901311</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="ScopeFun 27.07">
+      <option name="closed" value="true" />
+      <created>1722068741999</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1722068741999</updated>
+    </task>
+    <task id="LOCAL-00049" summary="ScopeFun 27.07">
+      <option name="closed" value="true" />
+      <created>1722068772162</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1722068772163</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -553,7 +570,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Constructor29.06" />
     <MESSAGE value="Constructors 30.06" />
     <MESSAGE value="Encapsulation 30.06" />
     <MESSAGE value="getSet 30.06" />
@@ -578,6 +594,7 @@
     <MESSAGE value="Nullable 23.07" />
     <MESSAGE value="Types 25.07" />
     <MESSAGE value="Extensions 26.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extensions 26.07" />
+    <MESSAGE value="ScopeFun 27.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="ScopeFun 27.07" />
   </component>
 </project>

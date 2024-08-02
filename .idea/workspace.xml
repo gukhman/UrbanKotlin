@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="List 31.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Set 02.08">
+      <change afterPath="$PROJECT_DIR$/src/Set/Set.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -164,14 +165,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00003" summary="if">
-      <option name="closed" value="true" />
-      <created>1718520929980</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1718520929980</updated>
     </task>
     <task id="LOCAL-00004" summary="When">
       <option name="closed" value="true" />
@@ -557,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722403558388</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Set 02.08">
+      <option name="closed" value="true" />
+      <created>1722574048909</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1722574048909</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -572,7 +573,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="getSet 30.06" />
     <MESSAGE value="Inheritance 30.06" />
     <MESSAGE value="Abstract 01.07 (1,2)" />
     <MESSAGE value="Interfaces 02.07" />
@@ -597,6 +597,7 @@
     <MESSAGE value="ScopeFun 27.07" />
     <MESSAGE value="InfixFun 30.07" />
     <MESSAGE value="List 31.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="List 31.07" />
+    <MESSAGE value="Set 02.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set 02.08" />
   </component>
 </project>

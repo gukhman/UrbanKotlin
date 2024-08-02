@@ -45,6 +45,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/ScopeFun" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Infix" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/List" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/Set" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

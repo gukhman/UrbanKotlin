@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="InfixFun 30.07">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="List 31.07">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -87,6 +87,7 @@
     "Kotlin.OverrideKt.executor": "Run",
     "Kotlin.ReturnKt.executor": "Run",
     "Kotlin.ScopeFunKt.executor": "Run",
+    "Kotlin.SetKt.executor": "Run",
     "Kotlin.StringKt.executor": "Run",
     "Kotlin.TypeFunctionKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
@@ -109,7 +110,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.ListKt">
+  <component name="RunManager" selected="Kotlin.SetKt">
     <configuration name="ExtensionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ExtensionsKt" />
       <module name="UrbanKotlin" />
@@ -138,8 +139,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TypesKt" />
+    <configuration name="SetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SetKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SetKt" />
         <item itemvalue="Kotlin.ListKt" />
         <item itemvalue="Kotlin.InfixKt" />
         <item itemvalue="Kotlin.ScopeFunKt" />
         <item itemvalue="Kotlin.ExtensionsKt" />
-        <item itemvalue="Kotlin.TypesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -163,14 +164,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00002" summary="val/oper">
-      <option name="closed" value="true" />
-      <created>1718436974464</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1718436974464</updated>
     </task>
     <task id="LOCAL-00003" summary="if">
       <option name="closed" value="true" />
@@ -556,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722319465017</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="List 31.07">
+      <option name="closed" value="true" />
+      <created>1722403558387</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1722403558388</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -571,7 +572,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Encapsulation 30.06" />
     <MESSAGE value="getSet 30.06" />
     <MESSAGE value="Inheritance 30.06" />
     <MESSAGE value="Abstract 01.07 (1,2)" />
@@ -596,6 +596,7 @@
     <MESSAGE value="Extensions 26.07" />
     <MESSAGE value="ScopeFun 27.07" />
     <MESSAGE value="InfixFun 30.07" />
-    <option name="LAST_COMMIT_MESSAGE" value="InfixFun 30.07" />
+    <MESSAGE value="List 31.07" />
+    <option name="LAST_COMMIT_MESSAGE" value="List 31.07" />
   </component>
 </project>

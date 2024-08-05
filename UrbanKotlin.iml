@@ -47,6 +47,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/List" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Map" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Set" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CheckAndGroup" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Filter" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

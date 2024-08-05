@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Set 02.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Map 02.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -68,6 +68,7 @@
     "Kotlin.EnumKt.executor": "Run",
     "Kotlin.ExceptionsKt.executor": "Run",
     "Kotlin.ExtensionsKt.executor": "Run",
+    "Kotlin.FilterKt.executor": "Run",
     "Kotlin.ForKt.executor": "Run",
     "Kotlin.FunKt.executor": "Run",
     "Kotlin.GenericsKt.executor": "Run",
@@ -111,7 +112,14 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.MapKt">
+  <component name="RunManager" selected="Kotlin.FilterKt">
+    <configuration name="FilterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FilterKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InfixKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="InfixKt" />
       <module name="UrbanKotlin" />
@@ -133,13 +141,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScopeFunKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ScopeFunKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SetKt" />
       <module name="UrbanKotlin" />
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FilterKt" />
         <item itemvalue="Kotlin.MapKt" />
         <item itemvalue="Kotlin.SetKt" />
         <item itemvalue="Kotlin.ListKt" />
         <item itemvalue="Kotlin.InfixKt" />
-        <item itemvalue="Kotlin.ScopeFunKt" />
       </list>
     </recent_temporary>
   </component>
@@ -165,14 +166,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00005" summary="When2">
-      <option name="closed" value="true" />
-      <created>1718560032502</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1718560032502</updated>
     </task>
     <task id="LOCAL-00006" summary="When3">
       <option name="closed" value="true" />
@@ -558,7 +551,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722574073749</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Map 02.08">
+      <option name="closed" value="true" />
+      <created>1722578788381</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1722578788382</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -573,7 +574,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Inheritance 30.06" />
     <MESSAGE value="Abstract 01.07 (1,2)" />
     <MESSAGE value="Interfaces 02.07" />
     <MESSAGE value="Enum 09.07" />
@@ -598,6 +598,7 @@
     <MESSAGE value="InfixFun 30.07" />
     <MESSAGE value="List 31.07" />
     <MESSAGE value="Set 02.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Set 02.08" />
+    <MESSAGE value="Map 02.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Map 02.08" />
   </component>
 </project>

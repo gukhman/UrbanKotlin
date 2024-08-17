@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Check 05.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="Sort 17.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -57,6 +57,7 @@
   "keyToString": {
     "Kotlin script (Beta).Main.kts.executor": "Run",
     "Kotlin.AbstractKt.executor": "Run",
+    "Kotlin.AgregateKt.executor": "Run",
     "Kotlin.AnonimObjectKt.executor": "Run",
     "Kotlin.AnonymousFunKt.executor": "Run",
     "Kotlin.ArrayKt.executor": "Run",
@@ -114,7 +115,14 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SortKt">
+  <component name="RunManager" selected="Kotlin.AgregateKt">
+    <configuration name="AgregateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AgregateKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckAndGroupKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CheckAndGroupKt" />
       <module name="UrbanKotlin" />
@@ -136,13 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SetKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortKt" />
       <module name="UrbanKotlin" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AgregateKt" />
         <item itemvalue="Kotlin.SortKt" />
         <item itemvalue="Kotlin.CheckAndGroupKt" />
         <item itemvalue="Kotlin.FilterKt" />
         <item itemvalue="Kotlin.MapKt" />
-        <item itemvalue="Kotlin.SetKt" />
       </list>
     </recent_temporary>
   </component>
@@ -168,14 +169,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00008" summary="While2">
-      <option name="closed" value="true" />
-      <created>1718603103149</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1718603103149</updated>
     </task>
     <task id="LOCAL-00009" summary="While3">
       <option name="closed" value="true" />
@@ -561,7 +554,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722836151490</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Sort 17.08">
+      <option name="closed" value="true" />
+      <created>1723892931290</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1723892931290</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -576,7 +577,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Enum 09.07" />
     <MESSAGE value="Anon 09.07" />
     <MESSAGE value="Delegation 10.07" />
     <MESSAGE value="TypeFun 11.07" />
@@ -601,6 +601,7 @@
     <MESSAGE value="Map 02.08" />
     <MESSAGE value="Filter 05.08" />
     <MESSAGE value="Check 05.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check 05.08" />
+    <MESSAGE value="Sort 17.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort 17.08" />
   </component>
 </project>

@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_1_Suspend 20.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_2_Coroutine 20.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9_2_Coroutine/Coroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/9_2_Coroutine/Coroutine.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,14 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Return">
-      <option name="closed" value="true" />
-      <created>1719292513238</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1719292513238</updated>
     </task>
     <task id="LOCAL-00016" summary="Return">
       <option name="closed" value="true" />
@@ -570,7 +562,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724147536011</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="9_2_Coroutine 20.08">
+      <option name="closed" value="true" />
+      <created>1724167777805</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1724167777805</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -585,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HighFun 14.07 (format)" />
     <MESSAGE value="AnonFun 14.07" />
     <MESSAGE value="AnonFun 14.07 1" />
     <MESSAGE value="Lambda 15.07" />
@@ -610,6 +609,7 @@
     <MESSAGE value="CollectionOperations 20.08" />
     <MESSAGE value="CollectionOperations2 20.08" />
     <MESSAGE value="9_1_Suspend 20.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="9_1_Suspend 20.08" />
+    <MESSAGE value="9_2_Coroutine 20.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="9_2_Coroutine 20.08" />
   </component>
 </project>

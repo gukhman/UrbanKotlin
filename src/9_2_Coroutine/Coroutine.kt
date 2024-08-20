@@ -1,10 +1,8 @@
-import kotlinx.coroutines.Job
-import kotlinx.coroutines.coroutineScope
-import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.*
 
 suspend fun main() = coroutineScope {
     println("1."); Coroutine1().task(); println("----------------------------------")
+    println("2."); Coroutine2().task(); println("----------------------------------")
 }
 
 /*1. Написать программу покупки продукта в магазине. Она запускается с фразы "Программа покупки продуктов".
@@ -56,5 +54,42 @@ private class Coroutine1 {
     private suspend fun bye() {
         delay(1000L)
         println("До свидания")
+    }
+}
+
+/*2. Написать программу, выводящую в консоль следующее сообщение:
+Начало программы
+1
+2
+Произошел ленивый запуск
+3
+4
+Программа завершена
+Реализацию вывода переменной счетчика необходимо исполнить с помощью корутины с задержкой внутри 1 сек.
+Вывод строки "Произошел ленивый запуск" выполнить, передав в параметр своей корутины CoroutineStart.LAZY,
+задержку выдержать в соответствии заявленным выводом (после вывода 2). Сообщение "Программа завершена"
+также выполняется в своей корутине с отложенным запуском с таким расчетом,
+чтобы она сработала после полного вывода переменной счетчика.*/
+private class Coroutine2 {
+    suspend fun task() = coroutineScope {
+        val lazyJob = launch(start = CoroutineStart.LAZY) {
+            delay(2500L)
+            println("Произошел ленивый запуск")
+        }
+        launch { bye() }
+        lazyJob.start()
+        launch { count() }
+    }
+
+    private suspend fun count() {
+        for (i in 1..4) {
+            delay(1000L)
+            println(i)
+        }
+    }
+
+    private suspend fun bye() {
+        delay(4500L)
+        println("Программа завершена")
     }
 }

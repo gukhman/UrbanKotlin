@@ -52,6 +52,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/Agregate" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/Sort" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CollectionOperations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/CollectionOperations2" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

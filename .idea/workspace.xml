@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="CollectionOperations 20.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="CollectionOperations2 20.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -55,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
     "Kotlin script (Beta).Main.kts.executor": "Run",
     "Kotlin.AbstractKt.executor": "Run",
     "Kotlin.AgregateKt.executor": "Run",
@@ -96,19 +97,23 @@
     "Kotlin.SetKt.executor": "Run",
     "Kotlin.SortKt.executor": "Run",
     "Kotlin.StringKt.executor": "Run",
+    "Kotlin.SuspendKt.executor": "Run",
     "Kotlin.TypeFunctionKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
     "Kotlin.ValKt.executor": "Run",
     "Kotlin.WhenKt.executor": "Run",
     "Kotlin.WhileKt.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
@@ -117,16 +122,9 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CollectionOperations2Kt">
+  <component name="RunManager" selected="Kotlin.SuspendKt">
     <configuration name="AgregateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AgregateKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckAndGroupKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CheckAndGroupKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,13 +151,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuspendKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuspendKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin.CollectionOperations2Kt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
         <item itemvalue="Kotlin.AgregateKt" />
         <item itemvalue="Kotlin.SortKt" />
-        <item itemvalue="Kotlin.CheckAndGroupKt" />
       </list>
     </recent_temporary>
   </component>
@@ -171,22 +176,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Arrays">
-      <option name="closed" value="true" />
-      <created>1718916757650</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1718916757650</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Arrays2">
-      <option name="closed" value="true" />
-      <created>1718917068101</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1718917068101</updated>
     </task>
     <task id="LOCAL-00013" summary="mArrays">
       <option name="closed" value="true" />
@@ -564,7 +553,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724129655697</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="CollectionOperations2 20.08">
+      <option name="closed" value="true" />
+      <created>1724132700880</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1724132700880</updated>
+    </task>
+    <task id="LOCAL-00061" summary="CollectionOperations2 20.08">
+      <option name="closed" value="true" />
+      <created>1724132710630</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1724132710630</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -579,7 +584,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="TypeFun 11.07" />
     <MESSAGE value="HighFun 14.07" />
     <MESSAGE value="HighFun 14.07 (format)" />
     <MESSAGE value="AnonFun 14.07" />
@@ -604,6 +608,7 @@
     <MESSAGE value="Sort 17.08" />
     <MESSAGE value="Agregate 17.08" />
     <MESSAGE value="CollectionOperations 20.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="CollectionOperations 20.08" />
+    <MESSAGE value="CollectionOperations2 20.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="CollectionOperations2 20.08" />
   </component>
 </project>

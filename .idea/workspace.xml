@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="CollectionOperations2 20.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_1_Suspend 20.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
@@ -67,6 +67,7 @@
     "Kotlin.CheckAndGroupKt.executor": "Run",
     "Kotlin.CollectionOperations2Kt.executor": "Run",
     "Kotlin.CollectionOperationsKt.executor": "Run",
+    "Kotlin.CoroutineKt.executor": "Run",
     "Kotlin.DataClassKt.executor": "Run",
     "Kotlin.DelegationKt.executor": "Run",
     "Kotlin.EncapsulationKt.executor": "Run",
@@ -122,7 +123,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.SuspendKt">
+  <component name="RunManager" selected="Kotlin.CoroutineKt">
     <configuration name="AgregateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AgregateKt" />
       <module name="UrbanKotlin" />
@@ -144,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortKt" />
+    <configuration name="CoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoroutineKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CoroutineKt" />
         <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin.CollectionOperations2Kt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
         <item itemvalue="Kotlin.AgregateKt" />
-        <item itemvalue="Kotlin.SortKt" />
       </list>
     </recent_temporary>
   </component>
@@ -176,22 +177,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00013" summary="mArrays">
-      <option name="closed" value="true" />
-      <created>1719155130907</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1719155130907</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Fun">
-      <option name="closed" value="true" />
-      <created>1719173191035</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1719173191035</updated>
     </task>
     <task id="LOCAL-00015" summary="Return">
       <option name="closed" value="true" />
@@ -569,7 +554,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724132710630</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="9_1_Suspend 20.08">
+      <option name="closed" value="true" />
+      <created>1724147528626</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1724147528626</updated>
+    </task>
+    <task id="LOCAL-00063" summary="9_1_Suspend 20.08">
+      <option name="closed" value="true" />
+      <created>1724147536011</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1724147536011</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -584,7 +585,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HighFun 14.07" />
     <MESSAGE value="HighFun 14.07 (format)" />
     <MESSAGE value="AnonFun 14.07" />
     <MESSAGE value="AnonFun 14.07 1" />
@@ -609,6 +609,7 @@
     <MESSAGE value="Agregate 17.08" />
     <MESSAGE value="CollectionOperations 20.08" />
     <MESSAGE value="CollectionOperations2 20.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="CollectionOperations2 20.08" />
+    <MESSAGE value="9_1_Suspend 20.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="9_1_Suspend 20.08" />
   </component>
 </project>

@@ -13,11 +13,11 @@ fun main() {
 /*1. Дано целое число. Если оно является положительным, то прибавить к нему 1;
     в противном случае не изменять его. Вывести полученное число.*/
 private fun task1() {
-    var a = 10;
+    var a = 10
     if (a >= 0) {
-        a++;
+        a++
     }
-    println("1. $a");
+    println("1. $a")
 }
 
 /*2. Даны целые числа: 4, 45, -2, 8. Найти количество положительных чисел в исходном наборе.*/
@@ -26,7 +26,7 @@ private fun task2() {
     var res = 0                         //mutable
     for (elem in numbers) {
         if (elem >= 0) {
-            res++;
+            res++
         }
     }
     println("2. В наборе ${numbers.contentToString()} $res положительных числа")
@@ -58,7 +58,7 @@ private fun task4() {
 
 private fun task5() {
     print("5. Введите оценку: ")
-    val grade = readLine()
+    val grade = readlnOrNull()
     var res = ""
     if (grade == "1") res = "плохо"
     else if (grade == "2") res = "неудовлетворительно"
@@ -80,7 +80,7 @@ private fun task5() {
 
 private fun task6() {
     print("6. Введите действие(1 — сложение, 2 — вычитание, 3 — умножение, 4 — деление): ")
-    val action = readLine()
+    val action = readlnOrNull()
     val a = 5.0
     val b = 2.0
     var res: Double = 0.0

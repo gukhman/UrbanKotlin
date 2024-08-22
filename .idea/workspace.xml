@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_2_Coroutine 20.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/9_2_Coroutine/Coroutine.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/9_2_Coroutine/Coroutine.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Array.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComprehensiveTesting/CT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComprehensiveTesting/CT.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/If/If.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/If/If.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +110,7 @@
     "Kotlin.ValKt.executor": "Run",
     "Kotlin.WhenKt.executor": "Run",
     "Kotlin.WhileKt.executor": "Run",
+    "Kotlin._9_3_AsyncAwaitRefferedKt.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -112,9 +119,10 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "copyright"
   }
 }]]></component>
@@ -123,14 +131,7 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CoroutineKt">
-    <configuration name="AgregateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AgregateKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin._9_3_AsyncAwaitRefferedKt">
     <configuration name="CollectionOperations2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionOperations2Kt" />
       <module name="UrbanKotlin" />
@@ -159,13 +160,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_9_3_AsyncAwaitRefferedKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_9_3_AsyncAwaitRefferedKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin._9_3_AsyncAwaitRefferedKt" />
         <item itemvalue="Kotlin.CoroutineKt" />
         <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin.CollectionOperations2Kt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
-        <item itemvalue="Kotlin.AgregateKt" />
       </list>
     </recent_temporary>
   </component>
@@ -177,14 +185,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Return">
-      <option name="closed" value="true" />
-      <created>1719292531249</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1719292531249</updated>
     </task>
     <task id="LOCAL-00017" summary="Modifiers1">
       <option name="closed" value="true" />
@@ -570,7 +570,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724167777805</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="9_2_Coroutine 20.08">
+      <option name="closed" value="true" />
+      <created>1724169283327</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1724169283327</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

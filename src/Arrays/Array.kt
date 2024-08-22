@@ -45,7 +45,7 @@ private fun task3() {
 //содержащий степени двойки от первой до N-й: 2,4,8,16,….
 private fun task4() {
     print("4.\tВведите число элементов массива: ")
-    val nStr = readLine()
+    val nStr = readlnOrNull()
     val n = try {
         nStr!!.toInt()
     } catch (e: NumberFormatException) {

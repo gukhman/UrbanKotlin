@@ -53,7 +53,7 @@ private fun task3() {
 // Добавим также проверку деления на 2,3,5
 private fun task4() {
     print("4.\tВведите число для проверки простоты: ")  //Попробуйте 35317, 115249, 12709189, 1179269947, 13012649341
-    val nStr = readLine()
+    val nStr = readlnOrNull()
     val n: Long? = try {
         nStr?.toLong()
     } catch (e: NumberFormatException) {
@@ -131,7 +131,7 @@ private fun sumOfNumbers(n: Long): Int {
 private fun task5() {
     for (i in 1..3) {
         println("5.\tЧто это такое: синий, большой, с усами и полностью набит зайцами?:\t\t\\\\введите \"Сдаюсь\" для выхода")
-        val answer = readLine()
+        val answer = readlnOrNull()
         if (answer == "Троллейбус") {
             println("\tПравильно!")
             break

@@ -55,6 +55,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/9_2_Coroutine" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CollectionOperations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/CollectionOperations2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/9_3_AsyncAwaitReffered" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

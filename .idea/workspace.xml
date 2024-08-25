@@ -7,12 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_2_Coroutine 20.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_1_Suspend 25.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/Array.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/Array.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ComprehensiveTesting/CT.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComprehensiveTesting/CT.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/If/If.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/If/If.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/9_1_Suspend/Suspend.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/9_1_Suspend/Suspend.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,79 +56,79 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.AbstractKt.executor": "Run",
-    "Kotlin.AgregateKt.executor": "Run",
-    "Kotlin.AnonimObjectKt.executor": "Run",
-    "Kotlin.AnonymousFunKt.executor": "Run",
-    "Kotlin.ArrayKt.executor": "Run",
-    "Kotlin.CCKt.executor": "Run",
-    "Kotlin.CTKt.executor": "Run",
-    "Kotlin.CheckAndGroupKt.executor": "Run",
-    "Kotlin.CollectionOperations2Kt.executor": "Run",
-    "Kotlin.CollectionOperationsKt.executor": "Run",
-    "Kotlin.CoroutineKt.executor": "Run",
-    "Kotlin.DataClassKt.executor": "Run",
-    "Kotlin.DelegationKt.executor": "Run",
-    "Kotlin.EncapsulationKt.executor": "Run",
-    "Kotlin.EnumKt.executor": "Run",
-    "Kotlin.ExceptionsKt.executor": "Run",
-    "Kotlin.ExtensionsKt.executor": "Run",
-    "Kotlin.FilterKt.executor": "Run",
-    "Kotlin.ForKt.executor": "Run",
-    "Kotlin.FunKt.executor": "Run",
-    "Kotlin.GenericsKt.executor": "Run",
-    "Kotlin.GenericsLimitsKt.executor": "Run",
-    "Kotlin.GetSetKt.executor": "Run",
-    "Kotlin.HighFunKt.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.InfixKt.executor": "Run",
-    "Kotlin.InterfacesKt.executor": "Run",
-    "Kotlin.LambdaKt.executor": "Run",
-    "Kotlin.ListKt.executor": "Run",
-    "Kotlin.MArraysKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.MapKt.executor": "Run",
-    "Kotlin.ModifiersKt.executor": "Run",
-    "Kotlin.NullableKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.OverrideKt.executor": "Run",
-    "Kotlin.ReturnKt.executor": "Run",
-    "Kotlin.ScopeFunKt.executor": "Run",
-    "Kotlin.SetKt.executor": "Run",
-    "Kotlin.SortKt.executor": "Run",
-    "Kotlin.StringKt.executor": "Run",
-    "Kotlin.SuspendKt.executor": "Run",
-    "Kotlin.TypeFunctionKt.executor": "Run",
-    "Kotlin.TypesKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "Kotlin._9_3_AsyncAwaitRefferedKt.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AbstractKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AgregateKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonimObjectKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonymousFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArrayKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CCKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CTKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CheckAndGroupKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CollectionOperations2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CollectionOperationsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CoroutineKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataClassKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncapsulationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EnumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExceptionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExtensionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FilterKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsLimitsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GetSetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HighFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InfixKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ListKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MapKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ModifiersKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.NullableKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OverrideKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ReturnKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ScopeFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SortKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StringKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SuspendKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TypeFunctionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TypesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._9_3_AsyncAwaitRefferedKt.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;copyright&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._9_3_AsyncAwaitRefferedKt">
+  <component name="RunManager" selected="Kotlin.SuspendKt">
     <configuration name="CollectionOperations2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollectionOperations2Kt" />
       <module name="UrbanKotlin" />
@@ -169,9 +166,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin._9_3_AsyncAwaitRefferedKt" />
         <item itemvalue="Kotlin.CoroutineKt" />
-        <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin.CollectionOperations2Kt" />
         <item itemvalue="Kotlin.CollectionOperationsKt" />
       </list>
@@ -185,14 +182,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Modifiers1">
-      <option name="closed" value="true" />
-      <created>1719381244334</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1719381244334</updated>
     </task>
     <task id="LOCAL-00018" summary="Modifiers2">
       <option name="closed" value="true" />
@@ -578,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724169283327</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="9_3_AsyncAwaitReffered 22.08">
+      <option name="closed" value="true" />
+      <created>1724305759764</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1724305759765</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -593,8 +590,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AnonFun 14.07" />
-    <MESSAGE value="AnonFun 14.07 1" />
     <MESSAGE value="Lambda 15.07" />
     <MESSAGE value="String 15.07" />
     <MESSAGE value="Lambda 15.07 2" />
@@ -618,6 +613,8 @@
     <MESSAGE value="CollectionOperations2 20.08" />
     <MESSAGE value="9_1_Suspend 20.08" />
     <MESSAGE value="9_2_Coroutine 20.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="9_2_Coroutine 20.08" />
+    <MESSAGE value="9_3_AsyncAwaitReffered 22.08" />
+    <MESSAGE value="9_1_Suspend 25.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="9_1_Suspend 25.08" />
   </component>
 </project>

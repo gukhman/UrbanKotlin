@@ -1,6 +1,5 @@
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.launch
 import kotlin.random.Random
 
 suspend fun main() = coroutineScope {
@@ -27,37 +26,35 @@ private class Suspend1 {
             Person("Мирон", 36),
             Person("Ирина", 24)
         )
-        val cityList = arrayListOf(
-            Weather("Дмитрий", "Калининград", 22F),
-            Weather("Александ", "Зеленоградск", 20F),
-            Weather("Полина", "Пионерский", 25F),
-            Weather("Мирон", "Светлогорск", 26.7F),
-            Weather("Ирина", "Балтийск", 23.2F)
+        val weatherList = arrayListOf(
+            Weather("Калининград", "Ясно", 22F),
+            Weather("Зеленоградск", "Облачно", 20F),
+            Weather("Пионерский", "Дождь", 25F),
+            Weather("Светлогорск", "Временами облачно", 26.7F),
+            Weather("Балтийск", "Снегопад", 23.2F)
         )
-        val numbers = ArrayList<Int>()
+        val randoms = ArrayList<Int>()
 
         for (i in 1..10) {
-            numbers.add(Random.nextInt(1, 101))
+            randoms.add(Random.nextInt(1, 101))
         }
 
-        val tasks = launch {
+        //val tasks = async {
             download(personList, "personList")
-            download(cityList, "cityList")
-            download(numbers, "numbers")
-        }
-        tasks.join()
+            download(weatherList, "weatherList")
+            download(randoms, "randoms")
+        //}
+        //tasks.join()
         delay(1000L)
-        
-        println("Данные загружены:")
-        println("$personList\n$cityList\n$numbers")
+
+        println("\nДанные загружены:")
+        println("$personList\n$weatherList\n$randoms")
     }
 
-    private suspend fun <T> download(list: T, name: String) {
-        if (list is ArrayList<*>) {
-            for (elem in list) {
-                delay(1000L)
-                println("Загрузка списка $name: $elem")
-            }
+    private suspend fun <T> download(list: ArrayList<T>, name: String) {
+        for (elem in list) {
+            delay(1000L)
+            println("Загрузка списка $name: $elem")
         }
     }
 

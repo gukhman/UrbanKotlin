@@ -7,9 +7,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_1_Suspend 25.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_5_Channels 26.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +101,7 @@
     "Kotlin.SortKt.executor": "Run",
     "Kotlin.StringKt.executor": "Run",
     "Kotlin.SuspendKt.executor": "Run",
+    "Kotlin.TestKt.executor": "Run",
     "Kotlin.TypeFunctionKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
     "Kotlin.ValKt.executor": "Run",
@@ -130,16 +130,16 @@
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._9_5_ChannelsKt">
-    <configuration name="CoroutineKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoroutineKt" />
+  <component name="RunManager" selected="Kotlin._9_4_DispatcherAndCancelKt">
+    <configuration name="SuspendKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SuspendKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuspendKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SuspendKt" />
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin._9_5_ChannelsKt" />
         <item itemvalue="Kotlin._9_4_DispatcherAndCancelKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin._9_5_ChannelsKt" />
         <item itemvalue="Kotlin.SuspendKt" />
         <item itemvalue="Kotlin._9_3_AsyncAwaitRefferedKt" />
-        <item itemvalue="Kotlin.CoroutineKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,14 +184,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Modifiers2">
-      <option name="closed" value="true" />
-      <created>1719465378682</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1719465378682</updated>
     </task>
     <task id="LOCAL-00020" summary="Constructor29.06">
       <option name="closed" value="true" />
@@ -577,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724569935883</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="9_5_Channels 26.08">
+      <option name="closed" value="true" />
+      <created>1724651942067</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1724651942067</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +592,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lambda 15.07" />
     <MESSAGE value="String 15.07" />
     <MESSAGE value="Lambda 15.07 2" />
     <MESSAGE value="Generics 16.07" />
@@ -617,7 +616,8 @@
     <MESSAGE value="9_2_Coroutine 20.08" />
     <MESSAGE value="9_3_AsyncAwaitReffered 22.08" />
     <MESSAGE value="9_1_Suspend 25.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="9_1_Suspend 25.08" />
+    <MESSAGE value="9_5_Channels 26.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="9_5_Channels 26.08" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

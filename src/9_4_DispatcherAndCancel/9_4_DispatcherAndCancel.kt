@@ -62,7 +62,7 @@ private class DispatcherAndCancel1 {
 
         val resultList = mutableMapOf<Person, String>()
 
-        fun addPerson(person: Person) = personList.add(person)
+        fun addPerson(person: Person) = personList.add(0,person)
 
         suspend fun addPassword() {
             for (person in personList) {

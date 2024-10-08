@@ -60,6 +60,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/9_5_Channels" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/12_1_Flow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/12_7_AnyNothingUnitPairTriple" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/12_6_InitCompSealed" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

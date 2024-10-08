@@ -7,8 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_5_Channels 26.08">
+    <list default="true" id="a6d34efa-b702-4d56-a25d-c7bbe49493fb" name="Changes" comment="9_4_DispatcherAndCancel 27.08">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UrbanKotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanKotlin.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Script" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -36,8 +37,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:/gukhman/UrbanKotlin.git&quot;,
-    &quot;accountId&quot;: &quot;2bfd2d9b-db59-4fcd-a318-f63e523c8cd7&quot;
+    &quot;url&quot;: &quot;https://github.com/gukhman/UrbanKotlin&quot;,
+    &quot;accountId&quot;: &quot;b7000d7d-e57e-4d7b-a331-00e10c6fa680&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -55,84 +56,92 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Kotlin script (Beta).Main.kts.executor": "Run",
-    "Kotlin.AbstractKt.executor": "Run",
-    "Kotlin.AgregateKt.executor": "Run",
-    "Kotlin.AnonimObjectKt.executor": "Run",
-    "Kotlin.AnonymousFunKt.executor": "Run",
-    "Kotlin.ArrayKt.executor": "Run",
-    "Kotlin.CCKt.executor": "Run",
-    "Kotlin.CTKt.executor": "Run",
-    "Kotlin.CheckAndGroupKt.executor": "Run",
-    "Kotlin.CollectionOperations2Kt.executor": "Run",
-    "Kotlin.CollectionOperationsKt.executor": "Run",
-    "Kotlin.CoroutineKt.executor": "Run",
-    "Kotlin.DataClassKt.executor": "Run",
-    "Kotlin.DelegationKt.executor": "Run",
-    "Kotlin.EncapsulationKt.executor": "Run",
-    "Kotlin.EnumKt.executor": "Run",
-    "Kotlin.ExceptionsKt.executor": "Run",
-    "Kotlin.ExtensionsKt.executor": "Run",
-    "Kotlin.FilterKt.executor": "Run",
-    "Kotlin.ForKt.executor": "Run",
-    "Kotlin.FunKt.executor": "Run",
-    "Kotlin.GenericsKt.executor": "Run",
-    "Kotlin.GenericsLimitsKt.executor": "Run",
-    "Kotlin.GetSetKt.executor": "Run",
-    "Kotlin.HighFunKt.executor": "Run",
-    "Kotlin.IfKt.executor": "Run",
-    "Kotlin.InfixKt.executor": "Run",
-    "Kotlin.InterfacesKt.executor": "Run",
-    "Kotlin.LambdaKt.executor": "Run",
-    "Kotlin.ListKt.executor": "Run",
-    "Kotlin.MArraysKt.executor": "Run",
-    "Kotlin.MainKt.executor": "Run",
-    "Kotlin.MapKt.executor": "Run",
-    "Kotlin.ModifiersKt.executor": "Run",
-    "Kotlin.NullableKt.executor": "Run",
-    "Kotlin.OperKt.executor": "Run",
-    "Kotlin.OverrideKt.executor": "Run",
-    "Kotlin.ReturnKt.executor": "Run",
-    "Kotlin.ScopeFunKt.executor": "Run",
-    "Kotlin.SetKt.executor": "Run",
-    "Kotlin.SortKt.executor": "Run",
-    "Kotlin.StringKt.executor": "Run",
-    "Kotlin.SuspendKt.executor": "Run",
-    "Kotlin.TestKt.executor": "Run",
-    "Kotlin.TypeFunctionKt.executor": "Run",
-    "Kotlin.TypesKt.executor": "Run",
-    "Kotlin.ValKt.executor": "Run",
-    "Kotlin.WhenKt.executor": "Run",
-    "Kotlin.WhileKt.executor": "Run",
-    "Kotlin._9_3_AsyncAwaitRefferedKt.executor": "Run",
-    "Kotlin._9_4_DispatcherAndCancelKt.executor": "Run",
-    "Kotlin._9_5_ChannelsKt.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "copyright"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Kotlin script (Beta).Main.kts.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AbstractKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AgregateKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonimObjectKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnonymousFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.AnyNothingUnitPairTripleKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ArrayKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CCKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CTKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CheckAndGroupKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CollectionOperations2Kt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CollectionOperationsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.CoroutineKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DataClassKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.DelegationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EncapsulationKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.EnumKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExceptionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ExtensionsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FilterKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ForKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.FunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GenericsLimitsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.GetSetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.HighFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InfixKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.InterfacesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.LambdaKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ListKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MArraysKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.MapKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ModifiersKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.NullableKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OperKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.OverrideKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ReturnKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ScopeFunKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SetKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SortKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.StringKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.SuspendKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TestKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TypeFunctionKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.TypesKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.ValKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhenKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin.WhileKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._9_3_AsyncAwaitRefferedKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._9_4_DispatcherAndCancelKt.executor&quot;: &quot;Run&quot;,
+    &quot;Kotlin._9_5_ChannelsKt.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/gukhm/IdeaProjects/UrbanKotlin/src/main/kotlin/Main.kt&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Errors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gukhm\IdeaProjects\UrbanKotlin\src\val" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin._9_4_DispatcherAndCancelKt">
-    <configuration name="SuspendKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SuspendKt" />
+  <component name="RunManager" selected="Kotlin.AnyNothingUnitPairTripleKt">
+    <configuration name="AnyNothingUnitPairTripleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnyNothingUnitPairTripleKt" />
+      <module name="UrbanKotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="UrbanKotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,20 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_9_5_ChannelsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_9_5_ChannelsKt" />
-      <module name="UrbanKotlin" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.AnyNothingUnitPairTripleKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin._9_3_AsyncAwaitRefferedKt" />
         <item itemvalue="Kotlin._9_4_DispatcherAndCancelKt" />
         <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin._9_5_ChannelsKt" />
-        <item itemvalue="Kotlin.SuspendKt" />
-        <item itemvalue="Kotlin._9_3_AsyncAwaitRefferedKt" />
       </list>
     </recent_temporary>
   </component>
@@ -184,22 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718342746689</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Constructor29.06">
-      <option name="closed" value="true" />
-      <created>1719646646365</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1719646646365</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Constructors 30.06">
-      <option name="closed" value="true" />
-      <created>1719723612609</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1719723612609</updated>
     </task>
     <task id="LOCAL-00022" summary="Encapsulation 30.06">
       <option name="closed" value="true" />
@@ -577,7 +563,23 @@
       <option name="project" value="LOCAL" />
       <updated>1724651942067</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="9_4_DispatcherAndCancel 27.08">
+      <option name="closed" value="true" />
+      <created>1724735181814</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1724735181814</updated>
+    </task>
+    <task id="LOCAL-00070" summary="9_4_DispatcherAndCancel 27.08">
+      <option name="closed" value="true" />
+      <created>1724735506989</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1724735506989</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -592,7 +594,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="String 15.07" />
     <MESSAGE value="Lambda 15.07 2" />
     <MESSAGE value="Generics 16.07" />
     <MESSAGE value="GenericsLimits 17.07" />
@@ -617,9 +618,19 @@
     <MESSAGE value="9_3_AsyncAwaitReffered 22.08" />
     <MESSAGE value="9_1_Suspend 25.08" />
     <MESSAGE value="9_5_Channels 26.08" />
-    <option name="LAST_COMMIT_MESSAGE" value="9_5_Channels 26.08" />
+    <MESSAGE value="9_4_DispatcherAndCancel 27.08" />
+    <option name="LAST_COMMIT_MESSAGE" value="9_4_DispatcherAndCancel 27.08" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/12_7_AnyNothingUnitPairTriple/AnyNothingUnitPairTriple.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="JetRunConfigurationType">
         <watch expression="stringList" />
